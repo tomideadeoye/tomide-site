@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tomide Adeoye — notes and work</title>
+<meta name="description" content="Tomide Adeoye: barrister and software engineer. Notes and work on law, code, and the governance of AI.">
+<meta property="og:title" content="Tomide Adeoye — notes and work">
+<meta property="og:description" content="Barrister and software engineer. Notes and work on law, code, and the governance of AI.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%2314120f'/><text x='50' y='68' font-size='52' font-family='Georgia,serif' fill='%23f4efe6' text-anchor='middle'>T</text></svg>">
+<style>
+  :root {
+    --paper: #f4efe6;
+    --ink: #14120f;
+    --muted: #6b6357;
+    --rule: #d9d0c1;
+    --accent: #8a5a2b;
+    --serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+    --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--serif);
+    font-size: 18px;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 44rem; margin: 0 auto; padding: 0 1.5rem; }
+  header { padding: 3.5rem 0 2.5rem; }
+  .name {
+    font-size: clamp(2.6rem, 7vw, 4.2rem);
+    line-height: 1.02;
+    letter-spacing: -0.02em;
+    font-weight: 500;
+  }
+  .tagline {
+    margin-top: 1rem;
+    font-size: 1.15rem;
+    color: var(--muted);
+    max-width: 34rem;
+  }
+  nav {
+    margin-top: 2rem;
+    display: flex;
+    gap: 1.6rem;
+    font-family: var(--sans);
+    font-size: 0.78rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+  }
+  nav a { color: var(--ink); text-decoration: none; border-bottom: 1px solid transparent; padding-bottom: 2px; }
+  nav a:hover { border-color: var(--accent); color: var(--accent); }
+  section { padding: 2.6rem 0; border-top: 1px solid var(--rule); }
+  h2 {
+    font-family: var(--sans);
+    font-size: 0.74rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    font-weight: 600;
+    margin-bottom: 1.4rem;
+  }
+  p + p { margin-top: 0.9rem; }
+  .item { margin-bottom: 1.6rem; }
+  .item:last-child { margin-bottom: 0; }
+  .item h3 { font-size: 1.08rem; font-weight: 600; }
+  .item p { font-size: 0.98rem; color: #3d382f; margin-top: 0.25rem; }
+  .item a, .plain { color: var(--accent); text-decoration: none; border-bottom: 1px solid rgba(138,90,43,0.35); }
+  .item a:hover, .plain:hover { border-color: var(--accent); }
+  .meta { font-family: var(--sans); font-size: 0.78rem; color: var(--muted); letter-spacing: 0.03em; }
+  .writing a { font-size: 1.05rem; }
+  footer { padding: 2.5rem 0 4rem; border-top: 1px solid var(--rule); font-family: var(--sans); font-size: 0.78rem; color: var(--muted); }
+  footer a { color: var(--muted); }
+  .cols { display: grid; grid-template-columns: 1fr; gap: 0.4rem; }
+  @media (min-width: 640px) { .cols { grid-template-columns: 9rem 1fr; gap: 1.5rem; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1 class="name">Tomide Adeoye</h1>
+    <p class="tagline">Barrister and software engineer. I work on law, code, and the governance of the systems the law is trying to govern.</p>
+    <nav>
+      <a href="#work">Work</a>
+      <a href="#writing">Writing</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="work">
+    <h2>Selected work</h2>
+    <div class="item">
+      <h3>Orion Horizon</h3>
+      <p>An autonomous AI system I designed and run in daily production: long-horizon agent orchestration, structured memory with vector retrieval, browser automation, and self-monitoring tooling. <a href="https://github.com/tomideadeoye/orion-horizon">Source on GitHub</a>.</p>
+    </div>
+    <div class="item">
+      <h3>Legal Library</h3>
+      <p>A versioned Nigerian law corpus as data — every section bound to a version, a provenance record (source URL, retrieval date, hash) and a commencement date, so a citation can answer &ldquo;which version says what, and when did it change&rdquo;.</p>
+    </div>
+    <div class="item">
+      <h3>Compliance, translated into software</h3>
+      <p>As a founding engineer at a payments company and in a Big Four tax technology practice, I have turned regulatory text — central-bank circulars, KYC/AML obligations — into working systems: risk-scoring, verification workflows, and audit-ready compliance registers for multinational operations.</p>
+    </div>
+    <div class="item">
+      <h3>Africa GRC Summit — platform and production</h3>
+      <p>Built and operate the digital platform for a public executive webinar series on governance, risk and compliance for African practitioners. <a href="https://www.africagrcsummit.com">africagrcsummit.com</a></p>
+    </div>
+  </section>
+
+  <section id="writing" class="writing">
+    <h2>Writing</h2>
+    <div class="item">
+      <a href="https://merislabs-merislabs.vercel.app/blog/ai-governance-nigeria-implementation-gap">Nigeria wrote an AI strategy. Governance is the harder part.</a>
+      <p class="meta">An analysis of the implementation gap in Nigerian AI governance: enforcement capacity, auditable automation, and why comparative measurement matters.</p>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>I am a lawyer and an engineer, which means I usually end up working in the seam between the two: regulatory obligations that have to become working code, and software systems that have to survive legal scrutiny.</p>
+    <p>I read law at Obafemi Awolowo University (LL.B, Second Class Upper), qualified as a barrister at the Nigerian Law School, and was called to the Bar in 2025. Alongside that, I have spent the last few years building software — payments infrastructure, compliance tooling, and lately a law library that treats legal text as versioned data rather than documents.</p>
+    <p>My current interests are AI governance, the rule of law under automated decision-making, and building institutions that survive contact with real code.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <div class="cols">
+      <span class="meta">Email</span><span><a class="plain" href="mailto:tomideadeoye@gmail.com">tomideadeoye@gmail.com</a></span>
+      <span class="meta">GitHub</span><span><a class="plain" href="https://github.com/tomideadeoye">github.com/tomideadeoye</a></span>
+      <span class="meta">LinkedIn</span><span><a class="plain" href="https://linkedin.com/in/tomide-adeoye-828604129">linkedin.com/in/tomide-adeoye</a></span>
+    </div>
+  </section>
+
+  <footer>
+    © 2026 Tomide Adeoye · Lagos, Nigeria · Views are my own.
+  </footer>
+</div>
+</body>
+</html>
